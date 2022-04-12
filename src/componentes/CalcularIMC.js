@@ -1,3 +1,4 @@
+import './Calculadora.css';
 function CalcularIMC(props) {
     const calc=(p, a,sr)=> {
         props.sr(props.p / (props.a * props.a));
@@ -5,7 +6,7 @@ function CalcularIMC(props) {
       
       return(
         <div>
-          <button onClick={calc}>Calcular</button>
+          <button onClick={calc} id='bt'>Calcular</button>
         </div>
       );
 }

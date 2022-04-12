@@ -1,26 +1,15 @@
 import React from 'react';
-import { useState } from 'react';
 import './App.css';
-import TabelaIMC from './componentes/TabelaIMC';
-import Peso from './componentes/Peso';
-import Altura from './componentes/Altura';
-import CalcularIMC from './componentes/CalcularIMC';
-import Resultado from './componentes/Resultado';
+import Calculadora from './componentes/Calculadora';
+
 
 function App() {
-
-  const [peso, setPeso] = useState(0);
-  const [altura, setAltura] = useState(0);
-  const [resultado, setResultado] = useState(0);
-
   return (
-    <>
-      <Peso p={peso} sp={setPeso}/>
-      <Altura a={altura} sa={setAltura}/>
-      <CalcularIMC p={peso} a={altura} sr={setResultado}/>
-      <Resultado r={resultado}/>
-      <TabelaIMC/>
-    </>
+    
+        <div>
+            <Calculadora/>
+        </div>     
+
   );
 }
 
