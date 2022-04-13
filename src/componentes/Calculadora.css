@@ -34,6 +34,7 @@
     color: white;
     margin-left: 10px;
 }
+
 table, tr, td {
     border: 1px solid #A61414;
     border-collapse: collapse;
@@ -42,6 +43,7 @@ table, tr, td {
 tr, td {
     padding: 5px;
 }
+
 th {
     background-color: #3E5902;
     color: #F29F05;

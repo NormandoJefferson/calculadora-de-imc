@@ -1,4 +1,3 @@
-
 function Resultado(props) {
   
   const tipo=()=> {

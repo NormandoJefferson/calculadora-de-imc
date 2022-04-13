@@ -21,10 +21,7 @@ function Calculadora() {
                 <Resultado r={resultado}/>
                 <TabelaIMC/>
             </div>    
-        </div>
-       
-        
-         
+        </div>      
   );
 }
 
